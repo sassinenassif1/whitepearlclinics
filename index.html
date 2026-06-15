@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>White Pearl Clinics — Prof. Wadih Sassine Nassif</title>
+  <meta name="description" content="White Pearl Clinics, led by Prof. Wadih Sassine Nassif. Transforming lives for more than 25 years across Jounieh and Akkar, Lebanon. Book your free screening call." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ───────────────────────── NAV ───────────────────────── -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <nav class="nav__links nav__links--left">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#work" class="nav__link">Our Work</a>
+        <a href="#reviews" class="nav__link">Reviews</a>
+      </nav>
+
+      <a href="#top" class="nav__logo" aria-label="White Pearl Clinics home">
+        <span class="nav__mark" aria-hidden="true">◗</span>
+        <span class="nav__wordmark">White&nbsp;Pearl</span>
+      </a>
+
+      <div class="nav__links nav__links--right">
+        <a href="#locations" class="nav__pill">Locations</a>
+        <a href="#contact" class="btn btn--filled">Free Screening Call</a>
+      </div>
+
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ───────────────────────── HERO ───────────────────────── -->
+  <section class="hero" id="top">
+    <div class="hero__media">
+      <img src="assets/professor.jpg" alt="Prof. Wadih Sassine Nassif" class="hero__img" onerror="this.style.display='none'" />
+    </div>
+    <div class="hero__overlay">
+      <div class="hero__content">
+        <p class="hero__eyebrow">White Pearl Clinics</p>
+        <h1 class="hero__title">Transforming lives<br />for more than 25 years</h1>
+        <p class="hero__sub">Led by Prof. Wadih Sassine Nassif — Prosthodontics &amp; Endodontics, Jounieh &amp; Akkar, Lebanon.</p>
+        <a href="#contact" class="btn btn--filled btn--lg">Book a free screening call</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── STATS ───────────────────────── -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat">
+        <span class="stat__num" data-count="5000" data-suffix="+">5,000+</span>
+        <span class="stat__label">Patients treated</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="100" data-suffix="+">100+</span>
+        <span class="stat__label">Multi-generation families</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="25" data-suffix="+">25+</span>
+        <span class="stat__label">Years of experience</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── ABOUT ───────────────────────── -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__media">
+        <img src="assets/professor-portrait.jpg" alt="Prof. Wadih Sassine Nassif" onerror="this.parentElement.classList.add('about__media--empty')" />
+      </div>
+      <div class="about__body">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="section-title">A clinic built on a quarter-century of care</h2>
+        <p>
+          White Pearl Clinics is founded by <strong>Prof. Wadih Sassine Nassif</strong>.
+          After graduating from Lyon, France in Prosthodontics and Endodontics, Wadih
+          returned to Lebanon and founded two dental clinics — in Akkar, North Lebanon,
+          and in Jounieh, Mount Lebanon.
+        </p>
+        <p>
+          Over more than 25 years he has cared for over 5,000 patients and treated more
+          than 100 multi-generation families, building a practice rooted in trust,
+          precision, and the lasting confidence of a healthy smile.
+        </p>
+        <a href="#contact" class="btn btn--ghost">Start your journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── BEFORE / AFTER WORK ───────────────────────── -->
+  <section class="work" id="work">
+    <div class="container">
+      <p class="eyebrow eyebrow--center">Our Work</p>
+      <h2 class="section-title section-title--center">Real smiles, transformed</h2>
+      <p class="work__intro">Drag the handle to reveal the before &amp; after of Prof. Nassif's work.</p>
+    </div>
+
+    <div class="container work__grid">
+      <!-- Slider 1 -->
+      <figure class="ba" data-ba>
+        <div class="ba__frame">
+          <img class="ba__after" src="assets/case-1-after.jpg" alt="After treatment" onerror="this.classList.add('ph','ph--after')" />
+          <div class="ba__before-wrap">
+            <img class="ba__before" src="assets/case-1-before.jpg" alt="Before treatment" onerror="this.classList.add('ph','ph--before')" />
+          </div>
+          <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Reveal before and after" />
+          <span class="ba__handle" aria-hidden="true"></span>
+          <span class="ba__tag ba__tag--before">Before</span>
+          <span class="ba__tag ba__tag--after">After</span>
+        </div>
+        <figcaption class="ba__caption">Smile makeover — porcelain veneers</figcaption>
+      </figure>
+
+      <!-- Slider 2 -->
+      <figure class="ba" data-ba>
+        <div class="ba__frame">
+          <img class="ba__after" src="assets/case-2-after.jpg" alt="After treatment" onerror="this.classList.add('ph','ph--after')" />
+          <div class="ba__before-wrap">
+            <img class="ba__before" src="assets/case-2-before.jpg" alt="Before treatment" onerror="this.classList.add('ph','ph--before')" />
+          </div>
+          <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Reveal before and after" />
+          <span class="ba__handle" aria-hidden="true"></span>
+          <span class="ba__tag ba__tag--before">Before</span>
+          <span class="ba__tag ba__tag--after">After</span>
+        </div>
+        <figcaption class="ba__caption">Whitening &amp; alignment restoration</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── REVIEWS ───────────────────────── -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="eyebrow eyebrow--center">Patient Reviews</p>
+      <h2 class="section-title section-title--center">Trusted across generations</h2>
+    </div>
+
+    <div class="reviews__carousel" data-carousel>
+      <button class="reviews__arrow reviews__arrow--prev" data-prev aria-label="Previous review">‹</button>
+      <div class="reviews__track" data-track>
+        <!-- populated by script.js -->
+      </div>
+      <button class="reviews__arrow reviews__arrow--next" data-next aria-label="Next review">›</button>
+      <div class="reviews__dots" data-dots></div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── CONTACT / LOCATIONS ───────────────────────── -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__intro" id="locations">
+        <p class="eyebrow">Free Screening Call</p>
+        <h2 class="section-title">Register for a free<br />screening call</h2>
+        <p>Choose your nearest clinic, leave your details, and our team will reach out to schedule your complimentary screening.</p>
+
+        <div class="contact__locations">
+          <div class="loc-card">
+            <h3 class="loc-card__name">Jounieh</h3>
+            <p class="loc-card__region">Mount Lebanon</p>
+          </div>
+          <div class="loc-card">
+            <h3 class="loc-card__name">Akkar</h3>
+            <p class="loc-card__region">North Lebanon</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="form" id="screeningForm" novalidate>
+        <fieldset class="form__group">
+          <legend class="form__legend">Choose a location</legend>
+          <div class="form__locations">
+            <label class="loc-choice">
+              <input type="radio" name="location" value="Jounieh" required />
+              <span>Jounieh</span>
+            </label>
+            <label class="loc-choice">
+              <input type="radio" name="location" value="Akkar" required />
+              <span>Akkar</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="form__row">
+          <label class="field">
+            <span class="field__label">First name</span>
+            <input type="text" name="firstName" placeholder="First name" autocomplete="given-name" required />
+          </label>
+          <label class="field">
+            <span class="field__label">Last name</span>
+            <input type="text" name="lastName" placeholder="Last name" autocomplete="family-name" required />
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="field__label">Phone number</span>
+          <input type="tel" name="phone" placeholder="+961 XX XXX XXX" autocomplete="tel" required />
+        </label>
+
+        <button type="submit" class="btn btn--filled btn--block">Register for free screening</button>
+        <p class="form__note" data-form-note hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__mark" aria-hidden="true">◗</span>
+        <span class="footer__name">White Pearl Clinics</span>
+        <p class="footer__tag">Prof. Wadih Sassine Nassif · Prosthodontics &amp; Endodontics</p>
+      </div>
+      <nav class="footer__cols">
+        <div class="footer__col">
+          <span class="footer__head">Explore</span>
+          <a href="#about">About</a>
+          <a href="#work">Our Work</a>
+          <a href="#reviews">Reviews</a>
+        </div>
+        <div class="footer__col">
+          <span class="footer__head">Locations</span>
+          <a href="#contact">Jounieh, Mount Lebanon</a>
+          <a href="#contact">Akkar, North Lebanon</a>
+        </div>
+        <div class="footer__col">
+          <span class="footer__head">Get started</span>
+          <a href="#contact">Free screening call</a>
+        </div>
+      </nav>
+    </div>
+    <div class="container footer__base">
+      <span>© <span id="year"></span> White Pearl Clinics. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
