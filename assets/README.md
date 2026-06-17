@@ -3,18 +3,18 @@
 The site looks for the image files below. Until you add them, elegant
 gradient/striped placeholders are shown automatically (nothing breaks).
 
-Drop your real photos into this `assets/` folder using these exact names:
+Current photos in this folder (referenced by `index.html`):
 
 | File name | Used in | Notes |
 |-----------|---------|-------|
-| `professor.jpg` | Hero background | Prof. Nassif portrait (the blue-scrubs photo). Tall/portrait works best — text sits in the lower third. |
-| `professor-portrait.jpg` | About section | Same or another portrait. Shown at 4:5 aspect ratio. |
-| `case-1-before.jpg` | Before/After slider 1 | "Before" smile photo. |
-| `case-1-after.jpg`  | Before/After slider 1 | "After" smile photo. Pair these from the SAME case, same crop/angle. |
-| `case-2-before.jpg` | Before/After slider 2 | "Before" smile photo. |
-| `case-2-after.jpg`  | Before/After slider 2 | "After" smile photo. |
+| `professor-portrait.png` | Hero background + About section | Prof. Nassif portrait (blue scrubs). Portrait orientation; hero text sits in the lower third. |
+| `case-1-before.png` | Before/After slider 1 | "Before" smile photo. |
+| `case-1-after.png`  | Before/After slider 1 | "After" smile photo. |
+| `case-2-before.png` | Before/After slider 2 | "Before" smile photo. |
+| `case-2-after.png`  | Before/After slider 2 | "After" smile photo. |
+
+To swap a photo, replace the file (keeping the same name) or update the `src` in `index.html`.
 
 Tips:
 - Keep before/after pairs the same dimensions and crop so the reveal lines up.
 - Slider frames use a 3:2 aspect ratio; ~1500×1000px is plenty.
-- `.jpg` is expected; if you use `.png`/`.webp`, update the `src` in `index.html`.
